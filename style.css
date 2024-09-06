@@ -19,6 +19,9 @@ body{
 .text-center{
     text-align: center;
 }
+.margin-top-40{
+    margin-top: 40px;
+}
 
 /*  ------------------------------------------------    */
 .conteiner-cabecalho{
@@ -106,6 +109,69 @@ body{
     border-radius: 10px;
 }
 
+
+
+/*  ------------------------------------------------    */
+/*  Área de serviços */
+
+.conteiner-servicos{
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto ;
+}
+.conteiner-servicos h1{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+.conteiner-servicos h3{
+    padding: 20px 0;
+    color: #2097ff;
+}
+.conteiner-servicos article{
+    width: 40%;
+    margin: auto;
+    float: center;
+}
+
+.conteiner-servicos li{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: white;
+}
+
+/*  ------------------------------------------------    */
+/*  Área de contatos */
+
+.conteiner-contatos{
+    padding: 80px;
+}
+.conteiner-contatos h1{
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.conteiner-contatos h3{
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    border: 3px solid #105088;
+    background-color: #08253f;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.conteiner-contatos .contatos{
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color: #00a2ff;
+    margin-bottom: 20px;
+}
 
 /*  ------------------------------------------------    */
 /*  Roda-pé */
