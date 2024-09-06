@@ -1,0 +1,118 @@
+/*  ------------------------------------------------    */
+/*  Estilos da pagina   */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #05192a;
+}
+
+
+/*  ------------------------------------------------    */
+/*  geral  */
+
+.text-center{
+    text-align: center;
+}
+
+/*  ------------------------------------------------    */
+.conteiner-cabecalho{
+    text-align: center;
+    padding: 20px;
+    background-color: #04233f;
+
+}
+.conteiner-cabecalho h3{
+    font-weight: 600;
+    font-size: 2em;
+    color: #1190ff;
+    
+}
+/*  ------------------------------------------------    */
+/*  Navegação*/
+
+.main-links {
+    font-weight: 400;
+    
+    padding: 20px;
+    text-align: center;
+    background-color: #06345d;
+}
+
+.main-links a{
+    font-size: 1.5em;
+    margin: 0 50px;
+    text-decoration: none;
+    color:#7cc2ff;
+    
+}
+.main-links a:hover{
+    color: white;
+}
+/*  ------------------------------------------------    */
+/*  aba de serviços */
+
+.aba-principal .servico{
+    float: center;
+    margin: 60px auto;
+    width: 50%;
+    padding: 50px;
+    background-color: #04233f;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.aba-principal .servico .icone{
+    margin-bottom: 10px;
+}
+
+.aba-principal .servico-texto{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #81c4ff;
+}
+.aba-principal .texto-diferente{
+    color: white;
+    font-weight: bold;
+}
+/*  ------------------------------------------------    */
+
+.aba-secundaria{
+    text-align: center;
+    padding: 80px;
+    background-color: #082946;
+    
+}
+.aba-secundaria .buttons{
+    text-align: center;
+    padding: 60px;
+    
+}
+.aba-secundaria a{
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #008eb9;
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+
+/*  ------------------------------------------------    */
+/*  Roda-pé */
+
+footer{
+    text-align: center;
+    padding: 80px;
+    background-color: #02111f;
+    color: gray;
+}
